@@ -1,0 +1,205 @@
+{
+  "creator": {
+    "name": "Edery Renzo Abanto Vicente",
+    "title": "Edery Renzo Abanto Vicente",
+    "description": "Edery es un estudiante de la Universidad Peruana de Ciencias Aplicadas. Es un hombre responsable, aplicado y comprometido con su trabajo. Posee una gran pasión por la programación y busca constantemente aprender y mejorar sus habilidades. Siempre está dispuesto a asumir nuevos desafíos y es conocido por su actitud proactiva.",
+    "image": "../src/assets/creator.jpg",
+    "contact": {
+      "phone": "+51 923-456-789",
+      "email": "ederyrenzo@example.com",
+      "social": {
+        "facebook": "https://www.facebook.com/usuario",
+        "twitter": "https://twitter.com/usuario",
+        "linkedin": "https://www.linkedin.com/in/usuario"
+      }
+    }
+  },
+
+"users": [
+    {
+      "id": 1,
+      "name": "Edery",
+      "email": "Edery@wachalo.com"
+    },
+    {
+      "id": 2,
+      "name": "Rendery",
+      "email": "Rendery@wachalo.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "email": "bob@wachalo.com"
+    }
+  ],
+
+  "categories1": [
+    {
+      "id": 1,
+      "name": "Infantes",
+      "description": "En nuestra categoría de Infantes, encontrarás ropa cómoda y segura para tus pequeños. Tenemos una amplia selección de ropa para bebés y niños pequeños, desde bodys y pijamas hasta conjuntos de ropa de diario y trajes formales."
+    },
+    {
+      "id": 2,
+      "name": "Mujeres",
+      "description": "Descubre nuestra colección de ropa para mujeres. Ofrecemos una amplia gama de opciones para todas las edades y ocasiones. Encuentra tu estilo con nuestra selección de blusas, faldas, pantalones y vestidos. También contamos con una variedad de accesorios para complementar tu atuendo."
+    },
+    {
+      "id": 3,
+      "name": "Hombres",
+      "description": "En nuestra categoría de Hombres, encontrarás ropa para cada ocasión. Desde trajes y ropa formal para el trabajo y eventos especiales, hasta ropa informal y deportiva para el fin de semana. Contamos con una selección de camisas, pantalones, chaquetas y mucho más."
+    }
+  ],
+
+  "categories": [
+    { "id": 1, "name": "Camisetas" },
+    { "id": 2, "name": "Pantalones" },
+    { "id": 3, "name": "Vestidos" },
+    { "id": 4, "name": "Zapatos" },
+    { "id": 5, "name": "Accesorios" },
+    { "id": 6, "name": "Bolsos" }
+  ],
+  "sellers": [
+    { "id": 1, "name": "Juan Pérez" },
+    { "id": 2, "name": "María González" },
+    { "id": 3, "name": "Pedro Rodríguez" },
+    { "id": 4, "name": "Ana Ramírez" },
+    { "id": 5, "name": "Luisa Díaz" },
+    { "id": 6, "name": "Carlos Sánchez" }
+  ],
+  "clothes": [
+    {
+      "id": 1,
+      "name": "Camiseta blanca básica",
+      "image": "../src/components/clothes/image1.jpg",
+      "category": 1,
+      "seller": 1
+    },
+    {
+      "id": 2,
+      "name": "Pantalón de mezclilla ajustado",
+      "image": "../src/components/clothes/image2.jpg",
+      "category": 2,
+      "seller": 2
+    },
+    {
+      "id": 3,
+      "name": "Vestido negro elegante",
+      "image": "../src/components/clothes/image3.jpg",
+      "category": 3,
+      "seller": 3
+    },
+    {
+      "id": 4,
+      "name": "Camiseta estampada de colores",
+      "image": "../src/components/clothes/image4.jpg",
+      "category": 1,
+      "seller": 4
+    },
+    {
+      "id": 5,
+      "name": "Pantalón de tela a rayas",
+      "image": "../src/components/clothes/image5.jpg",
+      "category": 2,
+      "seller": 5
+    },
+    {
+      "id": 6,
+      "name": "Vestido floral de verano",
+      "image": "../src/components/clothes/image6.jpg",
+      "category": 3,
+      "seller": 6
+    },
+    {
+      "id": 7,
+      "name": "Camiseta de manga larga a rayas",
+      "image": "../src/components/clothes/image7.jpg",
+      "category": 1,
+      "seller": 1
+    },
+    {
+      "id": 8,
+      "name": "Pantalón corto de mezclilla desgastado",
+      "image": "../src/components/clothes/image8.jpg",
+      "category": 2,
+      "seller": 2
+    },
+    {
+      "id": 9,
+      "name": "Vestido estampado con volantes",
+      "image": "../src/components/clothes/image9.jpg",
+      "category": 3,
+      "seller": 3
+    },
+    {
+      "id": 10,
+      "name": "Camiseta negra con diseño gráfico",
+      "image": "../src/components/clothes/image10.jpg",
+      "category": 1,
+      "seller": 4
+    },
+    {
+      "id": 11,
+      "name": "Vestido amarillo con flores",
+      "image": "../src/components/clothes/image11.jpg",
+      "category": 3,
+      "seller": 6
+    },
+    {
+      "id": 12,
+      "name": "Camiseta blanca de manga corta",
+      "image": "../src/components/clothes/image12.jpg",
+      "category": 1,
+      "seller": 1
+    },
+    {
+      "id": 13,
+      "name": "Pantalón negro ajustado",
+      "image": "../src/components/clothes/image13.jpg",
+      "category": 2,
+      "seller": 2
+    },
+    {
+      "id": 14,
+      "name": "Vestido largo con estampado floral",
+      "image": "../src/components/clothes/image14.jpg",
+      "category": 3,
+      "seller": 3
+    },
+    {
+      "id": 15,
+      "name": "Camiseta a rayas en tonos azules",
+      "image": "../src/components/clothes/image15.jpg",
+      "category": 1,
+      "seller": 4
+    },
+    {
+      "id": 16,
+      "name": "Pantalón vaquero desgastado",
+      "image": "../src/components/clothes/image16.jpg",
+      "category": 2,
+      "seller": 5
+    },
+    {
+      "id": 17,
+      "name": "Vestido corto de encaje negro",
+      "image": "../src/components/clothes/image17.jpg",
+      "category": 3,
+      "seller": 6
+    },
+    {
+      "id": 18,
+      "name": "Camiseta estampada con motivo tropical",
+      "image": "../src/components/clothes/image18.jpg",
+      "category": 1,
+      "seller": 1
+    },
+    {
+      "id": 19,
+      "name": "Pantalón de vestir color gris",
+      "image": "../src/components/clothes/image19.jpg",
+      "category": 2,
+      "seller": 2
+    }
+  ]
+}
